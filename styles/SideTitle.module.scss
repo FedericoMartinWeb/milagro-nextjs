@@ -1,0 +1,14 @@
+@import './vars';
+
+.side__title{
+    color: $mainColor;
+    font-size: 1.8rem;
+    letter-spacing: .6px;
+}
+
+.side__title__main{
+    color: $mainWhite;
+    font-size: 2rem;
+    letter-spacing: .7px;
+    margin-bottom: 3rem;
+}

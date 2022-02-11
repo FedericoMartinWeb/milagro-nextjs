@@ -1,0 +1,13 @@
+@import './vars';
+@import './mixins';
+
+.grid{
+    background-color: $mainBlack;
+    // background-color: red;
+    
+    @include atDesktop{
+        display: grid;
+        grid-template-columns: 20% auto;
+        align-items: start;
+    }
+}
